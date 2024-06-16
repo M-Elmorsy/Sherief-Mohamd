@@ -450,6 +450,9 @@ ul {
 .fs-50 {
   font-size: 50px;
 }
+.fs-60 {
+  font-size: 60px;
+}
 .fw-bold {
   font-weight: bold;
 }
@@ -620,6 +623,9 @@ line-height: 1.6;
 .img-180 {
   height: 180px;
 }
+.img-200 {
+  height: 200px;
+}
 .img-250 {
   height: 250px;
 }
@@ -749,7 +755,7 @@ line-height: 1.6;
   border-radius: 50%;
 }
 .btn-shape:hover {
-  animation: shine var(--main-animation);
+  animation: mlt-color var(--main-animation);
 }
 /* End components */
 /* start animation */
