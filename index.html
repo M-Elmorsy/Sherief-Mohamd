@@ -36,7 +36,7 @@
     <!-- End header -->
     <!-- Start Our-Services -->
     <div class="Servs bg-ddd rad-10 m-0 bg-white flex1" id="Servs">
-      <div class="all-servs">
+      <div class="servs">
         <div class="Flighting box bg-eee b-white align-center rad-6 mb-15">
           <i class="fa-solid fa-plane-departure"></i>
           <p class="d-block m-0">Flighting</p>
@@ -45,44 +45,72 @@
           <i class="fa-solid fa-location"></i>
           <p class="d-block m-0">locational</p>
         </div>
-        <div class="Ticket box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-ticket"></i>
-          <p class="d-block m-0">Ticket</p>
-        </div>
-        <a href="Choose Type of Torism.html">
-          <div class="Scheduling box bg-eee b-white align-center rad-6 mb-15">
-            <i class="fa-solid fa-calendar-days"></i>
-            <p class="d-block m-0">Scheduling</p>
-          </div>
-        </a>
+        <button id="myBtn">Clike to More</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="all-srvs">
+              <div
+                class="Flighting box bg-eee b-white align-center rad-6 mb-15"
+              >
+                <i class="fa-solid fa-plane-departure"></i>
+                <p class="d-block m-0">Flighting</p>
+              </div>
+              <div
+                class="locational box bg-eee b-white align-center rad-6 mb-15"
+              >
+                <i class="fa-solid fa-location"></i>
+                <p class="d-block m-0">locational</p>
+              </div>
+              <div class="Ticket box bg-eee b-white align-center rad-6 mb-15">
+                <i class="fa-solid fa-ticket"></i>
+                <p class="d-block m-0">Ticket</p>
+              </div>
+              <a href="Scheduling Choose Type of Torism.html">
+                <div
+                  class="Scheduling box bg-eee b-white align-center rad-6 mb-15"
+                >
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <p class="d-block m-0">Scheduling</p>
+                </div>
+              </a>
 
-        <div class="Taxi box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-taxi"></i>
-          <p class="d-block m-0">Taxi</p>
-        </div>
-        <div class="Complaints box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-triangle-exclamation"></i>
-          <p class="d-block m-0">Complaints</p>
-        </div>
-        <div class="Emergency box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-tower-broadcast"></i>
-          <p class="d-block m-0">Emergency</p>
-        </div>
-        <div class="shopping box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <p class="d-block m-0">shopping</p>
-        </div>
-        <div class="Police box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-helicopter"></i>
-          <p class="d-block m-0">Police</p>
-        </div>
-        <div class="Itinerary box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-clipboard-list"></i>
-          <p class="d-block m-0">Itinerary</p>
-        </div>
-        <div class="Route box bg-eee b-white align-center rad-6 mb-15">
-          <i class="fa-solid fa-map"></i>
-          <p class="d-block m-0">Route</p>
+              <div class="Taxi box bg-eee b-white align-center rad-6 mb-15">
+                <i class="fa-solid fa-taxi"></i>
+                <p class="d-block m-0">Taxi</p>
+              </div>
+              <div
+                class="Complaints box bg-eee b-white align-center rad-6 mb-15"
+              >
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p class="d-block m-0">Complaints</p>
+              </div>
+              <div
+                class="Emergency box bg-eee b-white align-center rad-6 mb-15"
+              >
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <p class="d-block m-0">Emergency</p>
+              </div>
+              <div class="shopping box bg-eee b-white align-center rad-6 mb-15">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="d-block m-0">shopping</p>
+              </div>
+              <div class="Police box bg-eee b-white align-center rad-6 mb-15">
+                <i class="fa-solid fa-helicopter"></i>
+                <p class="d-block m-0">Police</p>
+              </div>
+              <div
+                class="Itinerary box bg-eee b-white align-center rad-6 mb-15"
+              >
+                <i class="fa-solid fa-clipboard-list"></i>
+                <p class="d-block m-0">Itinerary</p>
+              </div>
+              <div class="Route box bg-eee b-white align-center rad-6 mb-15">
+                <i class="fa-solid fa-map"></i>
+                <p class="d-block m-0">Route</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -158,5 +186,6 @@
     </div>
 
     <!-- End Programs -->
+    <script src="main.js"></script>
   </body>
 </html>
