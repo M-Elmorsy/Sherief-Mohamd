@@ -444,13 +444,21 @@ html {
     gap: 10px;
   }
 
+
   .Servs .box,
   .servs #myBtn {
     gap: 3px;
     padding: 0px;
     margin: 0 5px;
-    font-size: 7px;
-    width: 50px;
+    font-size: 15px;
+    width: 100px;
+  }
+  .Servs .all-srvs .box{
+    gap: 5px;
+    padding: 0px;
+    margin: 15px;
+    font-size: 14px;
+    width: 100px;
   }
   .Servs .modal-content .all-srvs{
     gap: 10px;
